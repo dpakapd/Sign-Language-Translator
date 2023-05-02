@@ -2,7 +2,7 @@ Sign Language Detection Deep Learning Implementation
 
 This repository contains the code required to implement a live stream translation of sign language based on words provided Google's Isolated Sign Language competition in Kaggle (https://www.kaggle.com/competitions/asl-signs)
 
-The program use MQTT to communicate between the camera.py and model.py files in order to pass the video frames and then provide a live translation of the word signed. 
+The program use MQTT to communicate between the signer_no_mediapipe.py (or signer_with_mediapipe.py) and ML_model.py files in order to pass the video frames and then provide a live translation of the word signed. 
 
 Note: This program can only translate single words at this time and cannot translate sentences. 
 
